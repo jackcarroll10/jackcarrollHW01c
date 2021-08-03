@@ -1,0 +1,8 @@
+print('======================')
+miles_driven = float(input('Enter miles driven:'))
+gallons_used = float(input('Enter gallons of gas used:'))
+cost_per_gallon = float(input('Enter cost per gallon:'))
+print('======================')
+print('Miles Per Gallon:' , miles_driven / gallons_used)
+print('Total Gas Cost:', gallons_used * cost_per_gallon)
+print('Cost Per Mile:', (gallons_used * cost_per_gallon)/(miles_driven))
